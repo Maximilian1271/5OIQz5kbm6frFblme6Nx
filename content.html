@@ -49,11 +49,16 @@
 	  }
 </style>
 <body>
-	<video id="myVideo" preload="auto" src="src/never.mp4" loop></video>
-	<video id="myVideo" preload="auto" src="src/scream.mp4" loop></video>
+	<video class="myVideo" preload="auto" src="src/never.mp4" autoplay muted loop></video>
+	<video class="myVideo2" preload="auto" src="src/scream.mp4" autoplay muted loop></video>
 	<script>
 		window.onload=function(){
-		document.getElementById("myVideo").play();  
+			setTimeout(function(){
+				document.querySelector(".myVideo").muted=false;
+				document.querySelector(".myVideo2").muted=false;
+				},3000
+			)
+
 	}
 	</script>
 </body>
