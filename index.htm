@@ -17,25 +17,25 @@
 		visibility: hidden;
 	}
 	@-webkit-keyframes argh-my-eyes {
-		0%   { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		49% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		50% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		99% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		100% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
+		0%   { background-color: red;
+		49% { background-color: blue;
+		50% { background-color: green;
+		99% { background-color: fuchsia;
+		100% { background-color: brown;
 	  }
 	  @-moz-keyframes argh-my-eyes {
-		0%   { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		49% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		50% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		99% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		100% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
+		0%   { background-color: red;
+		49% { background-color: blue;
+		50% { background-color: green;
+		99% { background-color: fuchsia;
+		100% { background-color: brown;
 	  }
 	  @keyframes argh-my-eyes {
-		0%   { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		49% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		50% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		99% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
-		100% { background-color: <?php printf( "#%06X\n", mt_rand( 0, 0x222222 )); ?> }
+		0%   { background-color: red;
+		49% { background-color: blue;
+		50% { background-color: green;
+		99% { background-color: fuchsia;
+		100% { background-color: brown;
 	  }
 	  body {
 	  -webkit-animation: argh-my-eyes .1s infinite;
@@ -59,7 +59,7 @@
 			}, 5000 ); //set an interval timer up to repeat the function
 </script>
 <body id="ele">
-	<video src="src/never.mp4" autoplay loop></video>
-	<video src="src/scream.mp4" autoplay loop></video>
+	<video preload="auto" src="src/never.mp4" autoplay loop></video>
+	<video preload="auto" src="src/scream.mp4" autoplay loop></video>
 </body>
 </html>
