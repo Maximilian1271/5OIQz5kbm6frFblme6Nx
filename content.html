@@ -20,11 +20,11 @@
 		width: 0px;
 		visibility: hidden;
 	}
-	  body {
+/*	body {
 	  -webkit-animation: argh-my-eyes .2s infinite;
 	  -moz-animation:    argh-my-eyes .2s infinite;
 	  animation:         argh-my-eyes .2s infinite;
-	}
+	}*/
 	@-webkit-keyframes argh-my-eyes {
 		0%   { background-color: red;}
 		49% { background-color: fuchsia;}
@@ -48,7 +48,12 @@
 	  }
 </style>
 <body>
-	<video preload="auto" src="src/never.mp4" autoplay loop></video>
-	<video preload="auto" src="src/scream.mp4" autoplay loop></video>
+	<video id="myVideo" preload="auto" src="src/never.mp4" loop></video>
+	<video id="myVideo" preload="auto" src="src/scream.mp4" loop></video>
+	<script>
+		window.onload=function(){
+		document.getElementById("myVideo").play();  
+	}
+	</script>
 </body>
 </html>
