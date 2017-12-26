@@ -7,48 +7,50 @@
 <style>
 	body{
 		background-image: url("src/giphy.gif");
-		background-repeat: no-repeat;
+		background-repeat: repeat-x;
 		background-position: center;
 		height: 100vh;
+		overflow: hidden;
 	}
 	video{
 		height: 0px;
 		width: 0px;
 		visibility: hidden;
 	}
+	  body {
+	  -webkit-animation: argh-my-eyes .3s infinite;
+	  -moz-animation:    argh-my-eyes .3s infinite;
+	  animation:         argh-my-eyes .3s infinite;
+	}
 	@-webkit-keyframes argh-my-eyes {
-		0%   { background-color: red;
-		49% { background-color: blue;
-		50% { background-color: green;
-		99% { background-color: fuchsia;
-		100% { background-color: brown;
+		0%   { background-color: red;}
+		49% { background-color: blue;}
+		50% { background-color: green;}
+		99% { background-color: fuchsia;}
+		100% { background-color: brown;}
 	  }
 	  @-moz-keyframes argh-my-eyes {
-		0%   { background-color: red;
-		49% { background-color: blue;
-		50% { background-color: green;
-		99% { background-color: fuchsia;
-		100% { background-color: brown;
+		0%   { background-color: red;}
+		49% { background-color: blue;}
+		50% { background-color: green;}
+		99% { background-color: fuchsia;}
+		100% { background-color: brown;}
 	  }
 	  @keyframes argh-my-eyes {
-		0%   { background-color: red;
-		49% { background-color: blue;
-		50% { background-color: green;
-		99% { background-color: fuchsia;
-		100% { background-color: brown;
+		0%   { background-color: red;}
+		49% { background-color: blue;}
+		50% { background-color: green;}
+		99% { background-color: fuchsia;}
+		100% { background-color: brown;}
 	  }
-	  body {
-	  -webkit-animation: argh-my-eyes .1s infinite;
-	  -moz-animation:    argh-my-eyes .1s infinite;
-	  animation:         argh-my-eyes .1s infinite;
 </style>
-<script>
+<!-- <script>
 	function flashtext(ele,col) {
-			var tmpColCheck = document.getElementById(ele).style.color;
+			var tmpColCheck = document.getElementById('ele').style.backgroundColor;
 			  if (tmpColCheck === 'silver') {
-				document.getElementById(ele).style.color = col;
+				document.getElementById('ele').style.backgroundColor = col;
 			  } else {
-				document.getElementById(ele).style.color = 'silver';
+				document.getElementById('ele').style.backgroundColor = 'silver';
 			  }
 			} 
 			
@@ -56,8 +58,8 @@
 				flashtext('flashingtext','red');
 				flashtext('flashingtext2','blue');
 				flashtext('flashingtext3','green');
-			}, 5000 ); //set an interval timer up to repeat the function
-</script>
+			}, 50 ); //set an interval timer up to repeat the function
+</script> -->
 <body id="ele">
 	<video preload="auto" src="src/never.mp4" autoplay loop></video>
 	<video preload="auto" src="src/scream.mp4" autoplay loop></video>
