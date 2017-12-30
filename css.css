@@ -3,27 +3,44 @@
 
 }
 .animation{
-	animation: type 1s steps(11) 1s 1 normal both,
+	-webkit-animation: type 1s steps(11) 1s 1 normal both,
+			   cursor 700ms steps(44) infinite normal;
+	        animation: type 1s steps(11) 1s 1 normal both,
 			   cursor 700ms steps(44) infinite normal;
 }
 .anim-rev{
-	animation: type2 1s steps(7) 1s 1 reverse both,
+	-webkit-animation: type2 1s steps(7) 1s 1 reverse both,
 			   cursor 900ms steps(44) infinite normal;
+	        animation: type2 1s steps(7) 1s 1 reverse both,
+			   cursor 900ms steps(44) infinite normal;
+}
+@-webkit-keyframes type{
+	to{width: 0;}
+	from{width: 6em;}
 }
 @keyframes type{
 	to{width: 0;}
 	from{width: 6em;}
 }
+@-webkit-keyframes type2{
+	to{width: 0;}
+	from{width: 3.8em;}
+}
 @keyframes type2{
 	to{width: 0;}
 	from{width: 3.8em;}
+}
+@-webkit-keyframes cursor{
+	0%{border-right-color: rgba(0,0,0,.75);}
+	50%{border-right-color: transparent;}
+	100%{border-right-color: rgba(0,0,0,.75);}
 }
 @keyframes cursor{
 	0%{border-right-color: rgba(0,0,0,.75);}
 	50%{border-right-color: transparent;}
 	100%{border-right-color: rgba(0,0,0,.75);}
 }
-.cur{
+.content{
 	padding-right: 2px;
 	width: 6em;
 	border-right: 2px solid rgba(0,0,0,.75);
@@ -36,6 +53,8 @@
 	margin-left: 5px
 }
 span{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	font-size: 180%;
 }
