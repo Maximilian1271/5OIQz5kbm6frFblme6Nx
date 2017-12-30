@@ -1,0 +1,40 @@
+*{
+	font-family: monospace;
+	background-color: black
+}
+.animation{
+	animation: type 1s steps(11) 1s 1 normal both,
+			   cursor 700ms steps(44) infinite normal;
+}
+.anim-rev{
+	animation: typewriterrev 1s steps(7) 1s 1 normal both,
+			   cursor 700ms steps(44) infinite normal;
+}
+@keyframes type{
+	to{width: 0;}
+	from{width: 6em;}
+}
+@keyframes typewriterrev{
+	from{width: 0;}
+	to{width: 3.8em;}
+}
+@keyframes cursor{
+	to{border-right-color: rgba(0,0,0,.75);}
+	from{border-right-color: transparent;}
+}
+.cur{
+	width: 6em;
+	border-right: 2px solid rgba(0,0,0,.75);
+	font-size: 180%;
+	white-space: nowrap;
+	overflow: hidden;
+	color: orange;
+}
+.static{
+	font-size: 180%;
+	color: white;
+	margin-left: 5px
+}
+span{
+	display: flex;
+}
