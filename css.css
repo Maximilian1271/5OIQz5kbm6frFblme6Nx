@@ -1,6 +1,6 @@
 *{
 	font-family: monospace;
-	background-color: black
+
 }
 .animation{
 	animation: type 1s steps(11) 1s 1 normal both,
@@ -32,7 +32,7 @@
 }
 .static{
 	font-size: 180%;
-	color: white;
+	color: black;
 	margin-left: 5px
 }
 span{
