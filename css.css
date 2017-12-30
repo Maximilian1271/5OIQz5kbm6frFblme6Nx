@@ -7,16 +7,16 @@
 			   cursor 700ms steps(44) infinite normal;
 }
 .anim-rev{
-	animation: typewriterrev 1s steps(7) 1s 1 normal both,
+	animation: type2 1s steps(7) 1s 1 reverse both,
 			   cursor 900ms steps(44) infinite normal;
 }
 @keyframes type{
 	to{width: 0;}
 	from{width: 6em;}
 }
-@keyframes typewriterrev{
-	from{width: 0;}
-	to{width: 3.8em;}
+@keyframes type2{
+	to{width: 0;}
+	from{width: 3.8em;}
 }
 @keyframes cursor{
 	0%{border-right-color: rgba(0,0,0,.75);}
