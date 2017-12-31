@@ -3,4 +3,4 @@ setTimeout(function(){
 	a.innerHTML="EDV4BIZ"
 	a.classList.add("anim-rev");
 	a.classList.remove("msanimation")
-},2000)
+},2500)

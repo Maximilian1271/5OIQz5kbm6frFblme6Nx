@@ -1,14 +1,14 @@
 .msanimation{
-	-webkit-animation: type 1s steps(11) 1s 1 normal both,
+	-webkit-animation: type 1.5s steps(11) 1s 1 normal both,
 			   cursor 700ms steps(44) infinite normal;
-	        animation: type 1s steps(11) 1s 1 normal both,
+	        animation: type 1.5s steps(11) 1s 1 normal both,
 			   cursor 700ms steps(44) infinite normal;
 }
 .anim-rev{
 	-webkit-animation: type2 1s steps(7) 1s 1 reverse both,
-			   cursor 900ms steps(7) 5 normal;
+			   cursor 900ms steps(7) 6 normal;
 	        animation: type2 1s steps(7) 1s 1 reverse both,
-			   cursor 900ms steps(7) 5 normal;
+			   cursor 900ms steps(7) 6 normal;
 }
 @-webkit-keyframes type{
 	to{width: 0}
