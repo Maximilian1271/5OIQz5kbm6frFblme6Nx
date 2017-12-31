@@ -2,7 +2,7 @@
 	font-family: monospace;
 
 }
-.animation{
+.msanimation{
 	-webkit-animation: type 1s steps(11) 1s 1 normal both,
 			   cursor 700ms steps(44) infinite normal;
 	        animation: type 1s steps(11) 1s 1 normal both,
