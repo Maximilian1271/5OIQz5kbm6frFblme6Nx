@@ -12,19 +12,19 @@
 }
 @-webkit-keyframes type{
 	to{width: 0}
-	from{width: 6em}
+	from{width: 10.7ch}
 }
 @keyframes type{
 	to{width: 0}
-	from{width: 6em}
+	from{width: 10.7ch}
 }
 @-webkit-keyframes type2{
 	to{width: 0}
-	from{width: 3.8em}
+	from{width: 6.7ch}
 }
 @keyframes type2{
 	to{width: 0}
-	from{width: 3.8em}
+	from{width: 6.7ch}
 }
 @-webkit-keyframes cursor{
 	0%{border-right-color: transparent}
@@ -38,7 +38,7 @@
 }
 .mscontent{
 	padding-right: 2px;
-	width: 6em;
+	width: 10.7ch;
 	border-right: 2px solid transparent;
 	white-space: nowrap;
 	overflow: hidden;
@@ -53,5 +53,5 @@
 	display: -ms-flexbox;
 	display: flex;
 	font-family: monospace;
-	font-size: 180%
+	/*font-size: calc(23.4px/1);*/
 }
