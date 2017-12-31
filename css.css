@@ -20,11 +20,11 @@
 }
 @-webkit-keyframes type2{
 	to{width: 0}
-	from{width: 6.7ch}
+	from{width: 6.8ch}
 }
 @keyframes type2{
 	to{width: 0}
-	from{width: 6.7ch}
+	from{width: 6.8ch}
 }
 @-webkit-keyframes cursor{
 	0%{border-right-color: transparent}
@@ -53,5 +53,5 @@
 	display: -ms-flexbox;
 	display: flex;
 	font-family: monospace;
-	/*font-size: calc(23.4px/1);*/
+	font-size: calc(23.4px/1);
 }
