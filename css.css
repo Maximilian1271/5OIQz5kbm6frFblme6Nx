@@ -1,7 +1,3 @@
-*{
-	font-family: monospace;
-
-}
 .msanimation{
 	-webkit-animation: type 1s steps(11) 1s 1 normal both,
 			   cursor 700ms steps(44) infinite normal;
@@ -15,30 +11,30 @@
 			   cursor 900ms steps(7) 5 normal;
 }
 @-webkit-keyframes type{
-	to{width: 0;}
-	from{width: 6em;}
+	to{width: 0}
+	from{width: 6em}
 }
 @keyframes type{
-	to{width: 0;}
-	from{width: 6em;}
+	to{width: 0}
+	from{width: 6em}
 }
 @-webkit-keyframes type2{
-	to{width: 0;}
-	from{width: 3.8em;}
+	to{width: 0}
+	from{width: 3.8em}
 }
 @keyframes type2{
-	to{width: 0;}
-	from{width: 3.8em;}
+	to{width: 0}
+	from{width: 3.8em}
 }
 @-webkit-keyframes cursor{
-	0%{border-right-color: transparent;}
-	50%{border-right-color: rgba(0,0,0,.75);}
-	100%{border-right-color: transparent;}
+	0%{border-right-color: transparent}
+	50%{border-right-color: rgba(0,0,0,.75)}
+	100%{border-right-color: transparent}
 }
 @keyframes cursor{
-	0%{border-right-color: transparent;}
-	50%{border-right-color: rgba(0,0,0,.75);}
-	100%{border-right-color: transparent;}
+	0%{border-right-color: transparent}
+	50%{border-right-color: rgba(0,0,0,.75)}
+	100%{border-right-color: transparent}
 }
 .mscontent{
 	padding-right: 2px;
@@ -46,7 +42,7 @@
 	border-right: 2px solid transparent;
 	white-space: nowrap;
 	overflow: hidden;
-	color: orange;
+	color: orange
 }
 .msstatic{
 	color: black;
@@ -56,5 +52,6 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	font-size: 180%;
+	font-family: monospace;
+	font-size: 180%
 }
