@@ -40,7 +40,7 @@
 	50%{border-right-color: rgba(0,0,0,.75);}
 	100%{border-right-color: transparent;}
 }
-.content{
+.mscontent{
 	padding-right: 2px;
 	width: 6em;
 	border-right: 2px solid transparent;
@@ -48,11 +48,11 @@
 	overflow: hidden;
 	color: orange;
 }
-.static{
+.msstatic{
 	color: black;
 	margin-left: 5px
 }
-span{
+.msanimspan{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
