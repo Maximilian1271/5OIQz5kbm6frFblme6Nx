@@ -12,7 +12,6 @@
 }
 @-webkit-keyframes type{
 	to{width: 0}
-<<<<<<< HEAD
 	from{width: 11ch}
 }
 @keyframes type{
@@ -25,8 +24,6 @@
 }
 @keyframes type2{
 	to{width: 0}
-	from{width: 7ch}
-=======
 	from{width: 6em}
 }
 @keyframes type{
@@ -40,7 +37,6 @@
 @keyframes type2{
 	to{width: 0}
 	from{width: 3.8em}
->>>>>>> parent of bfa4416... using ch now as width unit
 }
 @-webkit-keyframes cursor{
 	0%{border-right-color: transparent}
@@ -54,11 +50,7 @@
 }
 .mscontent{
 	padding-right: 2px;
-<<<<<<< HEAD
-	width: 11ch;
-=======
 	width: 6em;
->>>>>>> parent of bfa4416... using ch now as width unit
 	border-right: 2px solid transparent;
 	white-space: nowrap;
 	overflow: hidden;
@@ -72,12 +64,9 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-<<<<<<< HEAD
 	font-family: OSPDIN,"Helvetica Neue",Arial,sans-serif;
 	/*font-family: monospace;*/
 	font-size: calc(23.4px/1);
-=======
 	font-family: monospace;
 	font-size: 180%
->>>>>>> parent of bfa4416... using ch now as width unit
 }
