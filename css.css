@@ -12,19 +12,19 @@
 }
 @-webkit-keyframes type{
 	to{width: 0}
-	from{width: 10.7ch}
+	from{width: 11ch}
 }
 @keyframes type{
 	to{width: 0}
-	from{width: 10.7ch}
+	from{width: 11ch}
 }
 @-webkit-keyframes type2{
 	to{width: 0}
-	from{width: 6.8ch}
+	from{width: 7ch}
 }
 @keyframes type2{
 	to{width: 0}
-	from{width: 6.8ch}
+	from{width: 7ch}
 }
 @-webkit-keyframes cursor{
 	0%{border-right-color: transparent}
@@ -38,7 +38,7 @@
 }
 .mscontent{
 	padding-right: 2px;
-	width: 10.7ch;
+	width: 11ch;
 	border-right: 2px solid transparent;
 	white-space: nowrap;
 	overflow: hidden;
@@ -52,6 +52,7 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	font-family: monospace;
+	font-family: OSPDIN,"Helvetica Neue",Arial,sans-serif;
+	/*font-family: monospace;*/
 	font-size: calc(23.4px/1);
 }
