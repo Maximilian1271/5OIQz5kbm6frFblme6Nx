@@ -12,18 +12,6 @@
 }
 @-webkit-keyframes type{
 	to{width: 0}
-	from{width: 11ch}
-}
-@keyframes type{
-	to{width: 0}
-	from{width: 11ch}
-}
-@-webkit-keyframes type2{
-	to{width: 0}
-	from{width: 7ch}
-}
-@keyframes type2{
-	to{width: 0}
 	from{width: 6em}
 }
 @keyframes type{
@@ -49,7 +37,6 @@
 	100%{border-right-color: transparent}
 }
 .mscontent{
-	padding-right: 2px;
 	width: 6em;
 	border-right: 2px solid transparent;
 	white-space: nowrap;
@@ -64,9 +51,7 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	font-family: OSPDIN,"Helvetica Neue",Arial,sans-serif;
-	/*font-family: monospace;*/
-	font-size: calc(23.4px/1);
+	/*font-family: OSPDIN,"Helvetica Neue",Arial,sans-serif;*/
 	font-family: monospace;
-	font-size: 180%
+	font-size: calc(23.4px/1);
 }
