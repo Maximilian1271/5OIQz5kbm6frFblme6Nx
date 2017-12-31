@@ -10,9 +10,9 @@
 }
 .anim-rev{
 	-webkit-animation: type2 1s steps(7) 1s 1 reverse both,
-			   cursor 900ms steps(44) infinite normal;
+			   cursor 900ms steps(7) 5 normal;
 	        animation: type2 1s steps(7) 1s 1 reverse both,
-			   cursor 900ms steps(44) infinite normal;
+			   cursor 900ms steps(7) 5 normal;
 }
 @-webkit-keyframes type{
 	to{width: 0;}
@@ -31,19 +31,19 @@
 	from{width: 3.8em;}
 }
 @-webkit-keyframes cursor{
-	0%{border-right-color: rgba(0,0,0,.75);}
-	50%{border-right-color: transparent;}
-	100%{border-right-color: rgba(0,0,0,.75);}
+	0%{border-right-color: transparent;}
+	50%{border-right-color: rgba(0,0,0,.75);}
+	100%{border-right-color: transparent;}
 }
 @keyframes cursor{
-	0%{border-right-color: rgba(0,0,0,.75);}
-	50%{border-right-color: transparent;}
-	100%{border-right-color: rgba(0,0,0,.75);}
+	0%{border-right-color: transparent;}
+	50%{border-right-color: rgba(0,0,0,.75);}
+	100%{border-right-color: transparent;}
 }
 .content{
 	padding-right: 2px;
 	width: 6em;
-	border-right: 2px solid rgba(0,0,0,.75);
+	border-right: 2px solid transparent;
 	white-space: nowrap;
 	overflow: hidden;
 	color: orange;
